@@ -6,3 +6,8 @@ info = {
 }
 print(info)
 print(type(info))
+print(info["name"])
+print(info["age"])
+info["name"] = "Anish"
+info["location"] = "Goa"
+print(info)
